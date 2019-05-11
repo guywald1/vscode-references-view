@@ -17,7 +17,7 @@ export function activate(context: vscode.ExtensionContext) {
 
     const view = vscode.window.createTreeView(viewId, {
         treeDataProvider: provider,
-        showCollapseAll: true
+        // showCollapseAll: true
     });
 
     // editor highlights
